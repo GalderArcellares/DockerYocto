@@ -1,0 +1,22 @@
+# HSTS 1.0 Known Hosts database for GNU Wget.
+# Edit at your own risk.
+# <hostname>[:<port>]	<incl. subdomains>	<created>	<max-age>
+www.mpfr.org	0	1	1671127176	31536000
+ftp.gnu.org	0	0	1671127174	63072000
+www.python.org	0	1	1671127193	63072000
+www.cpan.org	0	0	1671127198	15724800
+launchpad.net	0	0	1671127363	15552000
+cdn.kernel.org	0	0	1671127178	15768001
+anduin.linuxfromscratch.org	0	0	1671127204	31536000
+sourceforge.net	0	0	1671127174	31536000
+curl.se	0	0	1671127554	31536000
+curl.haxx.se	0	0	1671127553	31536000
+sourceware.org	0	0	1671127185	16070400
+git.yoctoproject.org	0	0	1671127192	15768001
+busybox.net	0	0	1671127533	63072000
+www.gnupg.org	0	0	1671127573	31536000
+www.openssl.org	0	1	1671127193	31536000
+files.pythonhosted.org	0	1	1671127234	31536000
+github.com	0	1	1671127220	31536000
+www.w3.org	0	1	1671127448	15552000
+data.iana.org	0	0	1671127545	48211200

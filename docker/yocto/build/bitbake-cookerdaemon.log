@@ -1,0 +1,74 @@
+188 19:03:54.693418 --- Starting bitbake server pid 188 at 2022-12-15 19:03:54.693404 ---
+188 19:03:54.694025 Started bitbake server pid 188
+188 19:03:54.694193 Entering server connection loop
+188 19:03:54.694230 Lockfile is: /home/yocto/build/bitbake.lock
+Socket is /home/yocto/build/bitbake.sock (True)
+188 19:03:54.694358 Accepting [<socket.socket fd=6, family=AddressFamily.AF_UNIX, type=SocketKind.SOCK_STREAM, proto=0, laddr=bitbake.sock>] ([])
+188 19:03:54.694776 Processing Client
+188 19:03:54.694820 Connecting Client
+188 19:03:54.694954 Running command ['setFeatures', [2, 1]]
+188 19:03:54.695000 Command Completed (socket: True)
+188 19:03:54.695276 Running command ['updateConfig', {'halt': True, 'force': False, 'invalidate_stamp': None, 'dry_run': False, 'dump_signatures': [], 'extra_assume_provided': [], 'profile': False, 'prefile': [], 'postfile': [], 'server_timeout': None, 'nosetscene': False, 'setsceneonly': False, 'skipsetscene': False, 'runall': None, 'runonly': None, 'writeeventlog': None, 'build_verbose_shell': False, 'build_verbose_stdout': False, 'default_loglevel': 20, 'debug_domains': {}}, {'BB_ENV_PASSTHROUGH_ADDITIONS': 'ALL_PROXY BBPATH_EXTRA BB_LOGCONFIG BB_NO_NETWORK BB_NUMBER_THREADS BB_SETSCENE_ENFORCE BB_SRCREV_POLICY DISTRO FTPS_PROXY FTP_PROXY GIT_PROXY_COMMAND HTTPS_PROXY HTTP_PROXY MACHINE NO_PROXY PARALLEL_MAKE SCREENDIR SDKMACHINE SOCKS5_PASSWD SOCKS5_USER SSH_AGENT_PID SSH_AUTH_SOCK STAMPS_DIR TCLIBC TCMODE all_proxy ftp_proxy ftps_proxy http_proxy https_proxy no_proxy ', 'PWD': '/Yocto/poky/build', 'HOME': '/home/yocto', 'BBPATH': '/home/yocto/build', 'LC_ALL': 'en_US.UTF-8', 'PATH': '/Yocto/poky/scripts:/Yocto/poky/bitbake/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin', 'HOSTNAME': '75513e7aa62d', 'LANGUAGE': 'en_US:en', 'TZ': 'Europe/Moscow', 'LANG': 'en_US.UTF-8', 'PYTHONPATH': '/Yocto/poky/bitbake/lib:/Yocto/poky/bitbake/lib:/Yocto/poky/bitbake/lib:', 'TERM': 'xterm', 'DISPLAY': ':0', 'SHLVL': '3', 'BUILDDIR': '/home/yocto/build', 'OLDPWD': '/home/yocto/build', '_': '/Yocto/poky/bitbake/bin/bitbake'}, ['/Yocto/poky/bitbake/bin/bitbake', 'core-minimal-image']]
+188 19:03:54.932565 Command Completed (socket: True)
+188 19:03:54.932871 Running command ['getVariable', 'BBINCLUDELOGS']
+188 19:03:54.932988 Command Completed (socket: True)
+188 19:03:54.933076 Running command ['getVariable', 'BBINCLUDELOGS_LINES']
+188 19:03:54.933167 Command Completed (socket: True)
+188 19:03:54.933248 Running command ['getSetVariable', 'BB_CONSOLELOG']
+188 19:03:54.933399 Command Completed (socket: True)
+188 19:03:54.933498 Running command ['getSetVariable', 'BB_LOGCONFIG']
+188 19:03:54.933581 Command Completed (socket: True)
+188 19:03:54.934852 Running command ['getUIHandlerNum']
+188 19:03:54.934946 Command Completed (socket: True)
+188 19:03:54.935041 Running command ['setEventMask', 1, 20, {'BitBake.SigGen.HashEquiv': 19, 'BitBake.RunQueue.HashEquiv': 19}, ['bb.runqueue.runQueueExitWait', 'bb.event.LogExecTTY', 'logging.LogRecord', 'bb.build.TaskFailed', 'bb.build.TaskBase', 'bb.event.ParseStarted', 'bb.event.ParseProgress', 'bb.event.ParseCompleted', 'bb.event.CacheLoadStarted', 'bb.event.CacheLoadProgress', 'bb.event.CacheLoadCompleted', 'bb.command.CommandFailed', 'bb.command.CommandExit', 'bb.command.CommandCompleted', 'bb.cooker.CookerExit', 'bb.event.MultipleProviders', 'bb.event.NoProvider', 'bb.runqueue.sceneQueueTaskStarted', 'bb.runqueue.runQueueTaskStarted', 'bb.runqueue.runQueueTaskFailed', 'bb.runqueue.sceneQueueTaskFailed', 'bb.event.BuildBase', 'bb.build.TaskStarted', 'bb.build.TaskSucceeded', 'bb.build.TaskFailedSilent', 'bb.build.TaskProgress', 'bb.event.ProcessStarted', 'bb.event.ProcessProgress', 'bb.event.ProcessFinished']]
+188 19:03:54.935130 Command Completed (socket: True)
+188 19:03:54.935203 Running command ['getVariable', 'BB_DEFAULT_TASK']
+188 19:03:54.935279 Command Completed (socket: True)
+188 19:03:54.935400 Running command ['setConfig', 'cmd', 'build']
+188 19:03:54.935495 Command Completed (socket: True)
+188 19:03:54.935564 Running command ['buildTargets', ['core-minimal-image'], 'build']
+188 19:03:54.935612 Command Completed (socket: True)
+188 19:04:35.304188 Processing Client
+188 19:04:35.304469 Disconnecting Client (socket: True)
+188 19:04:35.305053 No timeout, exiting.
+188 19:04:35.405822 Exiting (socket: True)
+188 19:04:35.425489 Original lockfile contents: ['188\n']
+188 19:04:35.426083 Exiting as we could obtain the lock
+sys:1: ResourceWarning: unclosed file <_io.TextIOWrapper name='/home/yocto/build/bitbake-cookerdaemon.log' mode='a+' encoding='UTF-8'>
+236 19:05:49.667823 --- Starting bitbake server pid 236 at 2022-12-15 19:05:49.667807 ---
+236 19:05:49.668425 Started bitbake server pid 236
+236 19:05:49.668550 Entering server connection loop
+236 19:05:49.668570 Lockfile is: /home/yocto/build/bitbake.lock
+Socket is /home/yocto/build/bitbake.sock (True)
+236 19:05:49.668636 Accepting [<socket.socket fd=6, family=AddressFamily.AF_UNIX, type=SocketKind.SOCK_STREAM, proto=0, laddr=bitbake.sock>] ([])
+236 19:05:49.669168 Processing Client
+236 19:05:49.669198 Connecting Client
+236 19:05:49.669342 Running command ['setFeatures', [2, 1]]
+236 19:05:49.669392 Command Completed (socket: True)
+236 19:05:49.669630 Running command ['updateConfig', {'halt': True, 'force': False, 'invalidate_stamp': None, 'dry_run': False, 'dump_signatures': [], 'extra_assume_provided': [], 'profile': False, 'prefile': [], 'postfile': [], 'server_timeout': None, 'nosetscene': False, 'setsceneonly': False, 'skipsetscene': False, 'runall': None, 'runonly': None, 'writeeventlog': None, 'build_verbose_shell': False, 'build_verbose_stdout': False, 'default_loglevel': 20, 'debug_domains': {}}, {'BB_ENV_PASSTHROUGH_ADDITIONS': 'ALL_PROXY BBPATH_EXTRA BB_LOGCONFIG BB_NO_NETWORK BB_NUMBER_THREADS BB_SETSCENE_ENFORCE BB_SRCREV_POLICY DISTRO FTPS_PROXY FTP_PROXY GIT_PROXY_COMMAND HTTPS_PROXY HTTP_PROXY MACHINE NO_PROXY PARALLEL_MAKE SCREENDIR SDKMACHINE SOCKS5_PASSWD SOCKS5_USER SSH_AGENT_PID SSH_AUTH_SOCK STAMPS_DIR TCLIBC TCMODE all_proxy ftp_proxy ftps_proxy http_proxy https_proxy no_proxy ', 'PWD': '/Yocto/poky/build', 'HOME': '/home/yocto', 'BBPATH': '/home/yocto/build', 'LC_ALL': 'en_US.UTF-8', 'PATH': '/Yocto/poky/scripts:/Yocto/poky/bitbake/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin', 'HOSTNAME': '75513e7aa62d', 'LANGUAGE': 'en_US:en', 'TZ': 'Europe/Moscow', 'LANG': 'en_US.UTF-8', 'PYTHONPATH': '/Yocto/poky/bitbake/lib:/Yocto/poky/bitbake/lib:/Yocto/poky/bitbake/lib:/Yocto/poky/bitbake/lib:', 'TERM': 'xterm', 'DISPLAY': ':0', 'SHLVL': '4', 'BUILDDIR': '/home/yocto/build', 'OLDPWD': '/home/yocto/build', '_': '/Yocto/poky/bitbake/bin/bitbake'}, ['/Yocto/poky/bitbake/bin/bitbake', 'core-image-minimal']]
+236 19:05:49.865584 Command Completed (socket: True)
+236 19:05:49.865842 Running command ['getVariable', 'BBINCLUDELOGS']
+236 19:05:49.865965 Command Completed (socket: True)
+236 19:05:49.866040 Running command ['getVariable', 'BBINCLUDELOGS_LINES']
+236 19:05:49.866122 Command Completed (socket: True)
+236 19:05:49.866200 Running command ['getSetVariable', 'BB_CONSOLELOG']
+236 19:05:49.866336 Command Completed (socket: True)
+236 19:05:49.866404 Running command ['getSetVariable', 'BB_LOGCONFIG']
+236 19:05:49.866485 Command Completed (socket: True)
+236 19:05:49.867554 Running command ['getUIHandlerNum']
+236 19:05:49.867649 Command Completed (socket: True)
+236 19:05:49.867747 Running command ['setEventMask', 1, 20, {'BitBake.RunQueue.HashEquiv': 19, 'BitBake.SigGen.HashEquiv': 19}, ['bb.runqueue.runQueueExitWait', 'bb.event.LogExecTTY', 'logging.LogRecord', 'bb.build.TaskFailed', 'bb.build.TaskBase', 'bb.event.ParseStarted', 'bb.event.ParseProgress', 'bb.event.ParseCompleted', 'bb.event.CacheLoadStarted', 'bb.event.CacheLoadProgress', 'bb.event.CacheLoadCompleted', 'bb.command.CommandFailed', 'bb.command.CommandExit', 'bb.command.CommandCompleted', 'bb.cooker.CookerExit', 'bb.event.MultipleProviders', 'bb.event.NoProvider', 'bb.runqueue.sceneQueueTaskStarted', 'bb.runqueue.runQueueTaskStarted', 'bb.runqueue.runQueueTaskFailed', 'bb.runqueue.sceneQueueTaskFailed', 'bb.event.BuildBase', 'bb.build.TaskStarted', 'bb.build.TaskSucceeded', 'bb.build.TaskFailedSilent', 'bb.build.TaskProgress', 'bb.event.ProcessStarted', 'bb.event.ProcessProgress', 'bb.event.ProcessFinished']]
+236 19:05:49.867837 Command Completed (socket: True)
+236 19:05:49.867963 Running command ['getVariable', 'BB_DEFAULT_TASK']
+236 19:05:49.868063 Command Completed (socket: True)
+236 19:05:49.868134 Running command ['setConfig', 'cmd', 'build']
+236 19:05:49.868208 Command Completed (socket: True)
+236 19:05:49.868276 Running command ['buildTargets', ['core-image-minimal'], 'build']
+236 19:05:49.868317 Command Completed (socket: True)
+236 19:07:10.253804 Processing Client
+236 19:07:10.254065 Disconnecting Client (socket: True)
+236 19:07:10.254610 No timeout, exiting.
+236 19:07:10.355333 Exiting (socket: True)
+236 19:07:10.373541 Original lockfile contents: ['236\n']
+236 19:07:10.374123 Exiting as we could obtain the lock
+sys:1: ResourceWarning: unclosed file <_io.TextIOWrapper name='/home/yocto/build/bitbake-cookerdaemon.log' mode='a+' encoding='UTF-8'>
